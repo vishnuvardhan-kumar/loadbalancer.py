@@ -1,4 +1,4 @@
-# [loadbalancer.py]()
+# [loadbalancer.py](https://github.com/vishnuvardhan-kumar/loadbalancer.py/blob/master/loadbalancer.py)
 
 ## Explanation
 
@@ -72,7 +72,7 @@ These lines start the definition of the function `route_page(err)` , with `app.e
 
 The idea is that whenever the client requests a page that is not available, a `404 NOT FOUND` is raised, and this function is called by `Flask` to handle the error/display a custom `404.html` page.
 
-Since we do NOT have any routes configured, `Every request is a 404!`, and `route_page()` can send the request to one of the nodes.
+Since we do NOT have any routes configured, `Every request is a 404`, and `route_page()` can send the request to one of the nodes.
 
 ## Line 5
 
